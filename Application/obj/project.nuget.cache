@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2mHW9zeAJIzL67AmP00cWvlbSOraJC/oJbLAnL4iI07D+3rR/tJ7mB6exqsD/gAmTlidAajUkGexBkTtErEV6g==",
+  "dgSpecHash": "PQCeN0VYo9DRhhoBWcseVyIbxSwBZo1mvILPpXl0c7Kue6ZIrYWUMFsmOsaGnEL3Ay+ctOu1P32qgLWKgS8/eg==",
   "success": true,
-  "projectFilePath": "/Users/ryanbertram/Tutorials/Reactivities/Application/Application.csproj",
+  "projectFilePath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
