@@ -1,40 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bertr\\Tutorials\\reactivities\\API\\API.csproj": {}
+    "/Users/ryanbertram/Tutorials/Reactivities/API/API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bertr\\Tutorials\\reactivities\\API\\API.csproj": {
+    "/Users/ryanbertram/Tutorials/Reactivities/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bertr\\Tutorials\\reactivities\\API\\API.csproj",
+        "projectUniqueName": "/Users/ryanbertram/Tutorials/Reactivities/API/API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\bertr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\API\\obj\\",
+        "projectPath": "/Users/ryanbertram/Tutorials/Reactivities/API/API.csproj",
+        "packagesPath": "/Users/ryanbertram/.nuget/packages/",
+        "outputPath": "/Users/ryanbertram/Tutorials/Reactivities/API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bertr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ryanbertram/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\bertr\\Tutorials\\reactivities\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Application\\Application.csproj"
+              "/Users/ryanbertram/Tutorials/Reactivities/Application/Application.csproj": {
+                "projectPath": "/Users/ryanbertram/Tutorials/Reactivities/Application/Application.csproj"
               }
             }
           }
@@ -52,6 +46,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -77,44 +77,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bertr\\Tutorials\\reactivities\\Application\\Application.csproj": {
+    "/Users/ryanbertram/Tutorials/Reactivities/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bertr\\Tutorials\\reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "/Users/ryanbertram/Tutorials/Reactivities/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\bertr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Application\\obj\\",
+        "projectPath": "/Users/ryanbertram/Tutorials/Reactivities/Application/Application.csproj",
+        "packagesPath": "/Users/ryanbertram/.nuget/packages/",
+        "outputPath": "/Users/ryanbertram/Tutorials/Reactivities/Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bertr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ryanbertram/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\bertr\\Tutorials\\reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Domain\\Domain.csproj"
+              "/Users/ryanbertram/Tutorials/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/Users/ryanbertram/Tutorials/Reactivities/Domain/Domain.csproj"
               },
-              "C:\\Users\\bertr\\Tutorials\\reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Persistence\\Persistence.csproj"
+              "/Users/ryanbertram/Tutorials/Reactivities/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/ryanbertram/Tutorials/Reactivities/Persistence/Persistence.csproj"
               }
             }
           }
@@ -144,33 +138,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bertr\\Tutorials\\reactivities\\Domain\\Domain.csproj": {
+    "/Users/ryanbertram/Tutorials/Reactivities/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bertr\\Tutorials\\reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/ryanbertram/Tutorials/Reactivities/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\bertr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Domain\\obj\\",
+        "projectPath": "/Users/ryanbertram/Tutorials/Reactivities/Domain/Domain.csproj",
+        "packagesPath": "/Users/ryanbertram/.nuget/packages/",
+        "outputPath": "/Users/ryanbertram/Tutorials/Reactivities/Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bertr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ryanbertram/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -204,41 +192,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bertr\\Tutorials\\reactivities\\Persistence\\Persistence.csproj": {
+    "/Users/ryanbertram/Tutorials/Reactivities/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bertr\\Tutorials\\reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "/Users/ryanbertram/Tutorials/Reactivities/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\bertr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Persistence\\obj\\",
+        "projectPath": "/Users/ryanbertram/Tutorials/Reactivities/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/ryanbertram/.nuget/packages/",
+        "outputPath": "/Users/ryanbertram/Tutorials/Reactivities/Persistence/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bertr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ryanbertram/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\bertr\\Tutorials\\reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\bertr\\Tutorials\\reactivities\\Domain\\Domain.csproj"
+              "/Users/ryanbertram/Tutorials/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/Users/ryanbertram/Tutorials/Reactivities/Domain/Domain.csproj"
               }
             }
           }
@@ -252,6 +234,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -268,7 +256,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
