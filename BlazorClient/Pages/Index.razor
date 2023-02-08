@@ -1,7 +1,23 @@
 ﻿@page "/"
+@using Domain
+
+@inject HttpClient Http
 
 <PageTitle>Index</PageTitle>
+<ul>
+    @foreach(var activity in activities) 
+    {
+        <li>
+            @activity.Title
+        </li>
+    }
+</ul>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Hello, world!</MudText>
-<MudText Class="mb-8">Welcome to your new app, powered by MudBlazor!</MudText>
-<MudAlert Severity="Severity.Normal">You can find documentation and examples on our website here: <MudLink Href="https://mudblazor.com" Typo="Typo.body2" Color="Color.Inherit"><b>www.mudblazor.com</b></MudLink></MudAlert>
+@code {
+    List<Activity>? activities = new List<Activity>();
+
+    protected override async Task OnInitializedAsync() 
+    {
+        activities = await Http.GetFromJsonAsync<List<Activity>>("http://localhost:5000/api/activities");
+    }
+}
