@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sxeJIeGF8fUAC01mu4KTnZGHgYmdNcCuyAViE2jQXJfSVjAC1g0UEIb2974GAlolrowFpTGc2V+yD8xjYYxRwA==",
+  "dgSpecHash": "d+Ojm6uLETtp9CJN+pFdH0wtTn3tMgiCv8zymd0bxRFTM2TriMLO2Sbkk6uf0hONN1SGg8K+gHnHhYijlLkzUw==",
   "success": true,
   "projectFilePath": "/Users/ryanbertram/Tutorials/Reactivities/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/ryanbertram/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/ryanbertram/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/microsoft.data.sqlite.core/7.0.1/microsoft.data.sqlite.core.7.0.1.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/microsoft.entityframeworkcore/7.0.1/microsoft.entityframeworkcore.7.0.1.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.1/microsoft.entityframeworkcore.abstractions.7.0.1.nupkg.sha512",

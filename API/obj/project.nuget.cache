@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qZ4Bswfylleu7MkO4YnQMaG5NkIybAEr/7Sn7JTZSVVBmlL8iOKr0QfPKm3ylZ6EDbWu3pzUTLabL5u5aQWTmg==",
+  "dgSpecHash": "z/n0v4SfK8juUaXnBrandJz82ChjliwDGZBlIGs75skQmaiSE1i3tQIHiIWXJPufGgeGzlin5KTdhcl7/XzvlA==",
   "success": true,
   "projectFilePath": "/Users/ryanbertram/Tutorials/Reactivities/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/ryanbertram/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/ryanbertram/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/ryanbertram/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/ryanbertram/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/microsoft.data.sqlite.core/7.0.1/microsoft.data.sqlite.core.7.0.1.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/microsoft.entityframeworkcore/7.0.2/microsoft.entityframeworkcore.7.0.2.nupkg.sha512",

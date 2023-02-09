@@ -5,5 +5,10 @@
 <MudSnackbarProvider />
 
 <MudLayout>
-    @Body
+    <MudAppBar Color="Color.Transparent" Elevation="0">
+        <Header/>
+    </MudAppBar>
+    <MudMainContent>
+        @Body
+    </MudMainContent>
 </MudLayout>
