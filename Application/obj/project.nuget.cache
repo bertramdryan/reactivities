@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "d+Ojm6uLETtp9CJN+pFdH0wtTn3tMgiCv8zymd0bxRFTM2TriMLO2Sbkk6uf0hONN1SGg8K+gHnHhYijlLkzUw==",
+  "dgSpecHash": "Nr1fOrVWd6rU870V7Ts15bau1wTl/BsiRDCpxNSpA3nQj4SvlPoO9bSqbgSrWDhczSNrx5OUJ/NPwiLsn7YsvQ==",
   "success": true,
   "projectFilePath": "/Users/ryanbertram/Tutorials/Reactivities/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/ryanbertram/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/ryanbertram/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/ryanbertram/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/microsoft.data.sqlite.core/7.0.1/microsoft.data.sqlite.core.7.0.1.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/microsoft.entityframeworkcore/7.0.1/microsoft.entityframeworkcore.7.0.1.nupkg.sha512",
     "/Users/ryanbertram/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.1/microsoft.entityframeworkcore.abstractions.7.0.1.nupkg.sha512",
